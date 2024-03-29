@@ -10,7 +10,7 @@ from firebase_admin import  storage
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
     'databaseURL': "enter your database url",
-    'storageBucket': "enter your storage bucket link Note: link should start from google."
+    'storageBucket': "enter your storage bucket link Note: link should be like the following: project.appspot.com"
 })
 
 
